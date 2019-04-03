@@ -22,7 +22,7 @@ for i in range(len(FREQUENCY)):
     """
     t = np.arange(0, TMAX, DT)
 
-    ramp_up_time = 100  # sec
+    ramp_up_time = 10  # sec
 
     # ramp up left side stimuli to avoid abrupt stimulus
     ramp_factor = (1 / ramp_up_time) * t
